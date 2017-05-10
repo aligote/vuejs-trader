@@ -13,6 +13,7 @@ Vue.http.options.root = 'https://vuejs-http-ba995.firebaseio.com/';
 
 // Создаем и настраиваем роутинг
 const router = new VueRouter({
+  base: '/vuejs-trader/',
   mode: 'history',
   routes
 });
