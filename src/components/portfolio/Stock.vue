@@ -35,7 +35,7 @@
     },
     computed: {
       insufficientQuantity() {
-        return this.quantity > this.stock.quantity;
+        return +this.quantity > +this.stock.quantity;
       },
       isDisabledBtn() {
         return this.insufficientQuantity || +this.quantity <= 0 || !Number.isInteger(+this.quantity);
