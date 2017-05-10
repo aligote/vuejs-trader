@@ -22,7 +22,7 @@
             <a href="javascript:void(0);" class="dropdown-toggle">Сохранить/Загрузить <span class="caret"></span></a>
 
             <ul class="dropdown-menu">
-              <li><a href="javascript:void(0);" @click="saveData">Сохранить данные</a></li>
+              <li><a href="javascript:void(0);" @click="saveData">Сохранить (отключено)</a></li>
               <li><a href="javascript:void(0);" @click="loadData">Загрузить данные</a></li>
             </ul>
           </li>
